@@ -1,5 +1,5 @@
 {
-  "name": "ra",
+  "name": "fe-fast-cli",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -14,13 +14,21 @@
     }
   },
   "scripts": {
-    "dev2": "npx vite-node --watch src/index.ts create",
+    "dev": "npx vite-node --watch src/index.ts create",
     "build": "rollup --config rollup.config.js"
   },
   "author": "",
   "license": "ISC",
   "bin": {
-    "ra": "bin/ra.js"
+    "fe-fast-cli": "bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rocky-one/fe-fast-cli.git"
+  },
+  "homepage": "https://github.com/rocky-one/fe-fast-cli",
+  "bugs": {
+    "url": "https://github.com/rocky-one/fe-fast-cli/issues"
   },
   "dependencies": {
     "@rollup/plugin-json": "^6.1.0",
