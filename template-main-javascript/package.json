@@ -1,0 +1,19 @@
+{
+  "name": "aa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev"
+  },
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "yarn@1.21.1",
+  "workspaces": [
+    "apps/*"
+  ]
+}

@@ -1,0 +1,15 @@
+@use 'element-plus/theme-chalk/src/dark/css-vars.scss' as *;
+
+// element-plus黑暗模式变量覆盖
+html.dark {
+  .el-button--primary {
+    --el-button-bg-color: #e7ed33;
+  }
+}
+
+// 黑暗模式变量定义
+.app-theme-dark {
+  --base-background-color: #010611;
+  --base-font-color: #e97c7c;
+  --base-border-color: #7574d6;
+}

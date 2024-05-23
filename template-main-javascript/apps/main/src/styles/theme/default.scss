@@ -1,0 +1,13 @@
+// element-plus高亮模式变量覆盖
+html {
+  .el-button--primary {
+    --el-button-bg-color: #c533ed;
+  }
+}
+
+// 高亮模式通用变量定义
+.main-app-theme-light {
+  --base-background-color: #e8ebf2;
+  --base-font-color: #3346ed;
+  --base-border-color: #4c762a;
+}
